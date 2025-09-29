@@ -23,8 +23,8 @@ function App() {
   return (
     <>
       <h1>Name that Author!</h1>
-      <h5>With this deck, you'll learn the authors of some famous books!</h5>
-      <h5>Number of cards: {count}</h5>
+      <h4>With this deck, you'll learn the authors of some famous books!</h4>
+      <h4>Number of cards: {count}</h4>
       <div className = "flashcardArea">
         <button onClick={updateSide}><Card numCard = {cardNum} titleOrAuthor = {side}/></button>
         <button className='nextButton' onClick={updateCardNum}> next </button>

@@ -6,29 +6,36 @@
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif
 }
 
+p{
+  font-size: medium;
+}
+
 .cardBox{
   height: 300px;
   width: 500px;
   border-color: black;
   border: solid;
+  border-radius: 5px;
   margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: lavender;
 }
 
 button{
   background-color: white;
-  border-radius: none;
+  border-radius: 5px;
   border: none;
 }
 
 .nextButton{
   padding: 10px;
   border: solid;
-  border-radius: 0px;
   width: 100px;
   margin: 20px;
+  background-color: lightpink;
+
 }
 
 .flashcardArea{
