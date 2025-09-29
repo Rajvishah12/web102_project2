@@ -16,14 +16,14 @@ function Card(props){
     if (props.titleOrAuthor == 0){
         return(
             <div className = 'cardBox'>
-                <p><strong>{Object.keys(fruits[props.numCard])[0]}</strong></p>
+                <p><strong>Title: {Object.keys(fruits[props.numCard])[0]}</strong></p>
             </div>
         )
     }
     else{
         return(
             <div className = 'cardBox'>
-                <p><strong>{Object.values(fruits[props.numCard])[0]}</strong></p>
+                <p><strong>Author: {Object.values(fruits[props.numCard])[0]}</strong></p>
             </div>
         )
     }
