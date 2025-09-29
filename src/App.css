@@ -1,0 +1,38 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif
+}
+
+.cardBox{
+  height: 300px;
+  width: 500px;
+  border-color: black;
+  border: solid;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button{
+  background-color: white;
+  border-radius: none;
+  border: none;
+}
+
+.nextButton{
+  padding: 10px;
+  border: solid;
+  border-radius: 0px;
+  width: 100px;
+  margin: 20px;
+}
+
+.flashcardArea{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
