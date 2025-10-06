@@ -78,9 +78,11 @@ function App() {
       <h4>With this deck, you'll learn the authors of some famous books!</h4>
       <h4>Number of cards: {count}</h4>
       <div className = "flashcardArea">
+
         <button onClick={updateSide}><Card numCard = {cardNum} titleOrAuthor={side}
           title={Object.keys(books[cardNum])[0]}
           author={Object.values(books[cardNum])[0]}/></button>
+          
         {/* === 0 and === 9 because the new state is used while determining how to re-render the button */}
         <button className='arrowButton' disabled={cardNum === 0} onClick={decreaseCardNum}> back </button>
         <button className='arrowButton' disabled={cardNum === 9} onClick={increaseCardNum}> next </button>

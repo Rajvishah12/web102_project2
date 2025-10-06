@@ -1,5 +1,5 @@
 function Card(props){
-
+    
     if (props.titleOrAuthor == 0){
         return(
             <div className = 'cardBox'>
